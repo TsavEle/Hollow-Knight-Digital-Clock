@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+  background-image: url("./assets/Dirthmouth.jpeg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+h1{
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+}
+
+.clock-container{
+  
+  display: flex;
+  margin-top: 25%;
+  gap: 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-img{
+  background-image: url("./assets/hollow-knight-silksong.gif");
+  background-size: cover;
+  
+  width: 100px;
+  height: 120px;
+  border-radius: 5px;
+}
+
+.clock{
+backdrop-filter: blur(10px);
+font-size: 6rem;
+color: hsla(0, 15%, 95%, 0.507);
+font-weight: bold;
+}
